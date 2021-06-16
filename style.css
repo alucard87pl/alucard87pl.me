@@ -1,0 +1,65 @@
+@font-face {
+  font-family: Iosevka;
+  src: url("./iosevka-term-slab-regular.ttf");
+}
+
+html,
+body {
+  height: auto;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background: #000000;
+  overflow: hidden;
+}
+
+.cnv {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: 0;
+}
+
+.container {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: 99;
+  width: 100vw !important;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  height: 100vh !important;
+}
+
+h3 {
+  font-family: Iosevka;
+  color: #000000;
+  background-color: #00ff00;
+  font-size: 3rem;
+}
+
+.progress {
+  color: rgb(0, 0, 0);
+}
+
+.w3 {
+  border: 2px solid #00ff00;
+}
+
+.progbar {
+  background-color: #00ff00;
+}
+
+.footer {
+  font-family: "Iosevka", sans-serif;
+  position: absolute;
+  z-index: 98;
+  color: #000;
+  background-color: rgb(0, 192, 0);
+  bottom: 10px;
+  right: 10px;
+  padding: 5px;
+}
